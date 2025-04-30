@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Login.css";
 
 export const Login = () => {
   // armazenando as informações no state
@@ -46,7 +47,7 @@ export const Login = () => {
             Lembre de mim
           </label>
           {/* esqueceu a senha */}
-          <a href="#">Esqueceu a senha</a>
+          <a href="#">Esqueceu a senha?</a>
         </div>
         {/* button entrar */}
         <button>Entrar</button>

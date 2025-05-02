@@ -1,0 +1,17 @@
+/* Centralizando formulario e colocando imagem de fundo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    text-shadow: #000 1px 1px; /* dando nitides ao texto */
+}
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(assets/fundo5.jpg);
+    background-size: cover; /* preencher toda a tela */
+    background-position: center; /* centralizar imagem */
+}

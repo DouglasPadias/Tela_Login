@@ -1,9 +1,10 @@
 import "./App.css";
+import { Login } from "./components/Login";
 
 function App() {
   return (
-    <div>
-      <p>Tela de login</p>
+    <div className="App">
+      <Login />
     </div>
   );
 }
